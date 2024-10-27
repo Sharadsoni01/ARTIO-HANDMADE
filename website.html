@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Goods Marketplace</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ARTIO HANDMADE</div>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for handmade goods...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <img src="https://images.creativemarket.com/0.1.0/ps/9971678/1820/1214/m1/fpnw/wm0/handmade_template-.jpg?1614697164&s=02dfe05cd4ff6476979272b0ca30bd85"; alt="images"; width="1480"; height="700">
+        </section>
+        <section id="hero" class="hero">
+            <h1>Welcome to Your Handmade Marketplace</h1>
+            <p>Discover unique handmade products crafted with care.</p>
+        </section>
+
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://i.etsystatic.com/28270057/r/il/a03f65/2927369216/il_1140xN.2927369216_8gyh.jpg"alt="Handmade Vase">
+                    <h3>Handmade Vase</h3>
+                    <p>$25.00</p>
+                    <button onclick="addToCart('Handmade Vase')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/77/d9/55/77d9556e3261bf637ff6278b40c75805.jpg" alt="Knitted Scarf">
+                    <h3>Knitted Scarf</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('Knitted Scarf')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/8125X57mc4L._SL1500_.jpg" alt="Wooden Bowl">
+                    <h3>Wooden Bowl</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('Wooden Bowl')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.sheideas.com/wp-content/uploads/2017/10/Handmade-Ceramic-Beads-Rope-Chain-Choker-Necklace.jpg" alt="Handcrafted Jewelry">
+                    <h3>Handcrafted Jewelry</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('Handcrafted Jewelry')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.7DeAPTZP--KjiPiBy2ktkwHaE7&pid=Api&P=0&h=180" alt="Handmade basket">
+                    <h3>Handmade basket</h3>
+                    <p>$25.00</p>
+                    <button onclick="addToCart('Handmade basket')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.7EOqJSwcXd75TPCwl_FzRAHaFf&pid=Api&P=0&h=180" alt="Knitted mittens ">
+                    <h3>Knitted mittens</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('Knitted mittens')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.EHFkpDKFmlqgAo1JICPk0gHaFj&pid=Api&P=0&h=180" alt="handmade key holder">
+                    <h3>handmade key holder</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('handmade key holder')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/22514388/r/il/c220e9/2577276230/il_1588xN.2577276230_9hg7.jpg" alt="Handcrafted bracelets">
+                    <h3>Handcrafted bracelets</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('Handcrafted bracelets')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/8907298/r/il/44ed67/1190839591/il_1588xN.1190839591_36lq.jpg" alt="coat hangers">
+                    <h3>coat hangers</h3>
+                    <p>$25.00</p>
+                    <button onclick="addToCart('coat hangers')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/bc/7e/07/bc7e072b0d9d441672cc5b83f0850dda.jpg" alt="artificial plants">
+                    <h3>artificial plants</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('artificial plants')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/ae/37/ed/ae37ede1abc643677e9ba31ed3950fdd.jpg" alt="Handcrafted mugs">
+                    <h3>Handcrafted mugs</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('Handcrafted mugs')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.fEeq5dFnmf0Sf77srUJPQwHaFX&pid=Api&P=0&h=180" alt="Handmade toys">
+                    <h3>Handmade toys</h3>
+                    <p>$25.00</p>
+                    <button onclick="addToCart('Handmade toys')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/ea/fa/7e/eafa7e0172df7bd68fcadc8f6002f7f0.jpg" alt="utensils holder">
+                    <h3>utensils holder</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('utensils holder')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i5.walmartimages.com/asr/569452b9-8eb0-4150-8230-96efc3c49b96_1.38f9c2323e920758a8e754746b8e6feb.jpeg" alt="hats">
+                    <h3>hats</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('hats')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/0b/49/9d/0b499d0e1adc84c487b32fcbfeb44ecb.jpg" alt="scarves">
+                    <h3>scarves</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('scarves')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.A9zgSqS1kXpNNEKW8R2WrAHaHa&pid=Api&P=0&h=180" alt="enamel pins">
+                    <h3>enamel pins</h3>
+                    <p>$25.00</p>
+                    <button onclick="addToCart('enamel pins')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://live.staticflickr.com/2665/3784543924_b5f8861cd6_b.jpg" alt="Knitted cloth napkins">
+                    <h3>Knitted cloth napkins</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('Knitted cloth napkins')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.L2cwPONJNgkEa0PfWOaA4QHaEK&pid=Api&P=0&h=180" alt="sleeping mask">
+                    <h3>sleeping mask</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('sleeping mask')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://cdn.notonthehighstreet.com/system/product_images/images/001/484/043/original_handmade-animal-felt-key-ring.jpg" alt="key chains">
+                    <h3>key chains</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('key chains')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://madeheart.com/media/productphoto/124/41180132/020_116.jpg" alt="greeting cards">
+                    <h3>greeting cards</h3>
+                    <p>$25.00</p>
+                    <button onclick="addToCart('greeting cards')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/5482100/r/il/b80480/459346041/il_1588xN.459346041_4a41.jpg" alt="Knitted tote bags">
+                    <h3>Knitted tote bags</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('Knitted tote bags')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/df/f4/42/dff4425a2f32224314ef1fa75e7983d8.jpg" alt="phone cover">
+                    <h3>phone cover</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('phone cover')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/8f/3a/40/8f3a4058ae5ab2697a10f4d437abafca--henna-iphone-s.jpg" alt="Handcrafted phone cover">
+                    <h3>Handcrafted phone cover</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('Handcrafted phone cover')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.OFwjc-NWzp3SK4TdfOB-5QHaE8&pid=Api&P=0&h=180" alt="Knitted Sock">
+                    <h3>Knitted Sock</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('Knitted Sock')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/67/6c/37/676c37d0f178862e19021d756cb93603.jpg" alt="sunglasses case">
+                    <h3>sunglasses case</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('sunglasses case')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.-5cnC9kOdZT0UscjbHskaQHaFk&pid=Api&P=0&h=180" alt="Handcrafted potrait">
+                    <h3>Handcrafted potrait</h3>
+                    <p>50.00</p>
+                    <button onclick="addToCart('Handcrafted potrait')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="http://afewshortcuts.com/wp-content/uploads/2011/08/project-005.jpg" alt="dry-erase boards">
+                    <h3>dry-erase boards</h3>
+                    <p>25.00</p>
+                    <button onclick="addToCart('dry-erase boards')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/25770936/r/il/7cd8a2/3093946754/il_fullxfull.3093946754_52pj.jpg" alt="Knitted t-shirts">
+                    <h3>Knitted t-shirts</h3>
+                    <p>$30.00</p>
+                    <button onclick="addToCart('Knitted t-shirts')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.z1U2nkz_AfS_pl9jip7IZQHaFj&pid=Api&P=0&h=180" alt="handcrafted gift box">
+                    <h3>handcrafted gift box</h3>
+                    <p>$40.00</p>
+                    <button onclick="addToCart('handcrafted gift box')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.QRiHr54GMp3OrrYUqrpujQHaFj&pid=Api&P=0&h=180" alt=" leaf dishes">
+                    <h3>leaf dishes</h3>
+                    <p>$50.00</p>
+                    <button onclick="addToCart('leaf dishes')">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Welcome to artio handmade!
+                <br>
+                At artio, we believe in the beauty of handcrafted items and the stories they tell. Our online store is a curated collection of unique, handmade goods created by talented artisans from around the world. Each piece is crafted with love, passion, and a dedication to quality, ensuring that you receive not just a product, but a meaningful experience.
+                <br>
+                <br>
+                We aim to support small creators and promote sustainable practices by offering a platform for their incredible work. We want to connect you with items that reflect individuality, creativity, and authenticity. Whether you’re searching for the perfect gift or a special treat for yourself, our collection is designed to inspire and delight.
+                <br>
+                <br>
+                From beautifully crafted home decor to unique jewelry and personalized gifts, our selection is diverse and ever-evolving. Every item is handpicked for its quality and craftsmanship, ensuring that you find something truly special. We also prioritize sustainable materials and ethical practices, making your purchase a positive contribution to the artisans' communities.
+                <br>
+                <br>
+                - Quality:  We prioritize craftsmanship and ensure every item meets our high standards.<br>
+                - Sustainability:  We are committed to eco-friendly practices and support artisans who share our values.<br>
+                - Community:  We believe in the power of community and aim to uplift the makers behind our products.<br>
+                
+                Thank you for visiting ARTIO. We’re excited to share our love for handmade goods with you and hope you find something that speaks to your heart! Happy shopping!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@artiohandmade.com">info@handmadegoods.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 artio Handmade </p>
+    </footer>
+
+    <script src="website.js"></script>
+</body>
+</html>
